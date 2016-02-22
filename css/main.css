@@ -1,5 +1,5 @@
 body {
-  margin=0
+  margin: 0;
 }
 
 html {
@@ -12,10 +12,46 @@ html {
 
 header {
   background-color: #ffe500;
+  text-decoration: none;
+  margin: 0;
   text-align: center;
 }
 
 h1 {
   font-family: "Sigmar One", cursive;
-  color: #cc1465;
+  color: #b20953;
+  text-align: center;
+  font-size: 3rem;
+  margin: 1rem;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  display: inline-block;
+  color: #fff;
+  background-color: #b2a212;
+  padding: 8px;
+  text-decoration: none;
+  margin: 4px;
+  border-radius: 4px;
+  font-family: georgia: serif;
+  font-size: 1rem;
+}
+
+a:hover {
+  background-color: #b20953;
+}
+
+.current {
+  background-color: #b20953;
 }
